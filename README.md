@@ -123,7 +123,7 @@ If you find this work helpful in your research, please consider giving this repo
 ```
 @article{zou2025embodiedbrain,
   title={EmbodiedBrain: Expanding Performance Boundaries of Task Planning for Embodied Intelligence},
-  author={Zou, Ding and Wang, Feifan and Ge, Mengyu and Fan, Siyuan and Zhang, Zongbing and Chen, Wei and Wang, Lingfeng and Hu, Zhongyou and Yan, Wenrui and Gao, Zhengwei and others},
+  author={Zou, Ding and Wang, Feifan and Ge, Mengyu and Fan, Siyuan and Zhang, Zongbing and Chen, Wei and Wang, Lingfeng and Hu, Zhongyou and Yan, Wenrui and Gao, Zhengwei and Wang, Hao and Jin, Weizhao and Zhang Yu and Zhao, Hainan and Zhang, Mingliang and Xi, Xianxian and Zhang, Yaru and Li, Wenyuan and Wu, Yunpeng and Gao, Zhengguang and Zhu Yurui},
   journal={arXiv preprint arXiv:2510.20578},
   year={2025}
 }
