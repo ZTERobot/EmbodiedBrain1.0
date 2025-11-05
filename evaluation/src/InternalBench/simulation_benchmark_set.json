@@ -1,0 +1,1244 @@
+[
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you Use the knife from the sink to slice the bread, and leave the slices on the counter."
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will Use the knife from the sink to slice the bread, and leave the slices on the counter.</response>1.[Manipulate] find the knife\n2.[Navigate] navigate to the knife\n3.[Manipulate] pick the knife\n4.[Manipulate] cut the bread\n5.[Manipulate] place the knife on the counter\n6.[Manipulate] pick the bread slice\n7.[Manipulate] place the bread slice on the counter\n<plans></plans><actions>[['Find', 'Knife'], ['Navigate', 'Knife'], ['Pick', 'Knife'], ['Cut', 'Bread'], ['Place', 'Knife', 'Counter'], ['Pick', 'Bread Slice'], ['Place', 'Bread Slice', 'Counter']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/9/front.png",
+      "./test_images/simulation/9/rear.png",
+      "./test_images/simulation/9/left.png",
+      "./test_images/simulation/9/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you Wash the tomato in the sink and then put it in the refrigerator."
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will Wash the tomato in the sink and then put it in the refrigerator.</response>1.[Manipulate] find the tomato\n2.[Navigate] navigate to the Tomato\n3.[Manipulate] pick the tomato\n4.[Manipulate] place the tomato into the sink\n5.[Manipulate] turn on the tap\n6.[Manipulate] wash the tomato\n7.[Manipulate] turn off the tap\n8.[Manipulate] pick the tomato\n9.[Manipulate] find the refrigerator\n10.[Navigate] navigate to the refrigerator\n11.[Manipulate] open the refrigerator\n12.[Manipulate] place the tomato into the refrigerator\n13.[Manipulate] close the refrigerator\n<plans></plans><actions>[['Find', 'Tomato'], ['Navigate', 'Tomato'], ['Pick', 'Tomato'], ['Place', 'Tomato', 'Sink'], ['Turn on', 'Tap'], ['Wash', 'Tomato'], ['Turn off', 'Tap'], ['Pick', 'Tomato'], ['Find', 'Refrigerator'], ['Navigate', 'Refrigerator'], ['Open', 'Refrigerator'], ['Place', 'Tomato', 'Refrigerator'], ['Close', 'Refrigerator']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/10/front.png",
+      "./test_images/simulation/10/rear.png",
+      "./test_images/simulation/10/left.png",
+      "./test_images/simulation/10/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you Take the potato, wash it in the sink, and then put it on the pan"
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will Take the potato, wash it in the sink, and then put it on the pan</response>1.[Manipulate] find the potato\n2.[Navigate] navigate to the potato\n3.[Manipulate] pick the potato\n4.[Manipulate] place the potato into the sink\n5.[Manipulate] turn on the tap\n6.[Manipulate] wash the potato\n7.[Manipulate] turn off the tap\n8.[Manipulate] pick the potato\n9.[Manipulate] find the pan\n10.[Navigate] navigate to the pan\n11.[Manipulate] place the potato into the pan\n<plans></plans><actions>[['Find', 'Potato'], ['Navigate', 'Potato'], ['Pick', 'Potato'], ['Place', 'Potato', 'Sink'], ['Turn on', 'Tap'], ['Wash', 'Potato'], ['Turn off', 'Tap'], ['Pick', 'Potato'], ['Find', 'Pan'], ['Navigate', 'Pan'], ['Place', 'Potato', 'Pan']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/29/front.png",
+      "./test_images/simulation/29/rear.png",
+      "./test_images/simulation/29/left.png",
+      "./test_images/simulation/29/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you wash the bowl, and then cool it in the fridge"
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will wash the bowl, and then cool it in the fridge</response>1.[Manipulate] find the bowl\n2.[Navigate] navigate to the bowl\n3.[Manipulate] pick the bowl\n4.[Manipulate] find the sink\n5.[Navigate] navigate to the sink\n6.[Manipulate] place the bowl into the sink\n7.[Manipulate] turn on the water\n8.[Manipulate] wash the bowl\n9.[Manipulate] turn off the water\n10.[Manipulate] pick the bowl\n11.[Manipulate] find the refrigerator\n12.[Navigate] navigate to the refrigerator\n13.[Manipulate] open the refrigerator\n14.[Manipulate] place the bowl in the refrigerator\n15.[Manipulate] close the refrigerator\n<plans></plans><actions>[['Find', 'Bowl'], ['Navigate', 'Bowl'], ['Pick', 'Bowl'], ['Find', 'Sink'], ['Navigate', 'Sink'], ['Place', 'Bowl', 'Sink'], ['Turn on', 'Water'], ['Wash', 'Bowl'], ['Turn off', 'Water'], ['Pick', 'Bowl'], ['Find', 'Refrigerator'], ['Navigate', 'Refrigerator'], ['Open', 'Refrigerator'], ['Place', 'Bowl', 'Refrigerator'], ['Close', 'Refrigerator']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/10/front.png",
+      "./test_images/simulation/10/rear.png",
+      "./test_images/simulation/10/left.png",
+      "./test_images/simulation/10/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you cut the tomato, and place one of the slice in the table"
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will cut the tomato, and place one of the slice in the table</response>1.[Manipulate] find the tomato\n2.[Navigate] navigate to the Tomato\n3.[Manipulate] pick the knife\n4.[Manipulate] cut the tomato\n5.[Manipulate] place the knife into the sink\n6.[Manipulate] pick the slice\n7.[Manipulate] find the table\n8.[Navigate] navigate to the table\n9.[Manipulate] place the slice on the table\n<plans></plans><actions>[['Find', 'Tomato'], ['Navigate', 'Tomato'], ['Pick', 'Knife'], ['Cut', 'Tomato'], ['Place', 'Knife', 'Sink'], ['Pick', 'Slice'], ['Find', 'Table'], ['Navigate', 'Table'], ['Place', 'Slice', 'Table']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/9/front.png",
+      "./test_images/simulation/9/rear.png",
+      "./test_images/simulation/9/left.png",
+      "./test_images/simulation/9/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you clean the green cup and bowl, and then place them in the cabinet"
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will clean the green cup and bowl, and then place them in the cabinet</response>1.[Manipulate] find the green cup\n2.[Navigate] navigate to the green cup\n3.[Manipulate] pick the green cup\n4.[Manipulate] find the sink\n5.[Navigate] navigate to the sink\n6.[Manipulate] place the green cup into the sink\n7.[Manipulate] find the bowl\n8.[Navigate] navigate to the bowl\n9.[Manipulate] find the sink\n10.[Navigate] navigate to the sink\n11.[Manipulate] place the bowl into the sink\n12.[Manipulate] turn on the tap\n13.[Manipulate] wash the green cup\n14.[Manipulate] wash the bowl\n15.[Manipulate] turn off the tap\n16.[Manipulate] pick the green cup\n17.[Manipulate] find the cabinet\n18.[Navigate] navigate to the cabinet\n19.[Manipulate] open the cabinet\n20.[Manipulate] place the green cup into the cabinet\n21.[Manipulate] find the sink\n22.[Navigate] navigate to the sink\n23.[Manipulate] pick the bowl\n24.[Manipulate] find the cabinet\n25.[Navigate] navigate to the cabinet\n26.[Manipulate] place the bowl into the cabinet\n27.[Manipulate] close the cabinet\n<plans></plans><actions>[['Find', 'Green Cup'], ['Navigate', 'Green Cup'], ['Pick', 'Green Cup'], ['Find', 'Sink'], ['Navigate', 'Sink'], ['Place', 'Green Cup', 'Sink'], ['Find', 'Bowl'], ['Navigate', 'Bowl'], ['Find', 'Sink'], ['Navigate', 'Sink'], ['Place', 'Bowl', 'Sink'], ['Turn on', 'Tap'], ['Wash', 'Green Cup'], ['Wash', 'Bowl'], ['Turn off', 'Tap'], ['Pick', 'Green Cup'], ['Find', 'Cabinet'], ['Navigate', 'Cabinet'], ['Open', 'Cabinet'], ['Place', 'Green Cup', 'Cabinet'], ['Find', 'Sink'], ['Navigate', 'Sink'], ['Pick', 'Bowl'], ['Find', 'Cabinet'], ['Navigate', 'Cabinet'], ['Place', 'Bowl', 'Cabinet'], ['Close', 'Cabinet']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/10/front.png",
+      "./test_images/simulation/10/rear.png",
+      "./test_images/simulation/10/left.png",
+      "./test_images/simulation/10/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you clean the kettle, and heat it on the stove"
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will clean the kettle, and heat it on the stove</response>1.[Manipulate] find the kettle\n2.[Navigate] navigate to the kettle\n3.[Manipulate] pick the kettle\n4.[Manipulate] find the sink\n5.[Navigate] navigate to the sink\n6.[Manipulate] place the kettle in the sink\n7.[Manipulate] turn on the tap\n8.[Manipulate] wash the kettle\n9.[Manipulate] turn off the tap\n10.[Manipulate] pick the kettle\n11.[Manipulate] find the stove\n12.[Navigate] navigate to the stove\n13.[Manipulate] place the kettle on the stove\n14.[Manipulate] turn on the stove\n<plans></plans><actions>[['Find', 'Kettle'], ['Navigate', 'Kettle'], ['Pick', 'Kettle'], ['Find', 'Sink'], ['Navigate', 'Sink'], ['Place', 'Kettle', 'Sink'], ['Turn on', 'Tap'], ['Wash', 'Kettle'], ['Turn off', 'Tap'], ['Pick', 'Kettle'], ['Find', 'Stove'], ['Navigate', 'Stove'], ['Place', 'Kettle', 'Stove'], ['Turn on', 'Stove']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/29/front.png",
+      "./test_images/simulation/29/rear.png",
+      "./test_images/simulation/29/left.png",
+      "./test_images/simulation/29/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you clean the fork, and put it in the plate"
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will clean the fork, and put it in the plate</response>1.[Manipulate] find the fork\n2.[Navigate] navigate to the fork\n3.[Manipulate] pick the fork\n4.[Manipulate] find the sink\n5.[Navigate] navigate to the sink\n6.[Manipulate] place the fork into the sink\n7.[Manipulate] turn on the water\n8.[Manipulate] wash the fork\n9.[Manipulate] turn off the water\n10.[Manipulate] pick the fork\n11.[Manipulate] find the plate\n12.[Navigate] navigate to the plate\n13.[Manipulate] place the fork on the plate\n<plans></plans><actions>[['Find', 'Fork'], ['Navigate', 'Fork'], ['Pick', 'Fork'], ['Find', 'Sink'], ['Navigate', 'Sink'], ['Place', 'Fork', 'Sink'], ['Turn on', 'Water'], ['Wash', 'Fork'], ['Turn off', 'Water'], ['Pick', 'Fork'], ['Find', 'Plate'], ['Navigate', 'Plate'], ['Place', 'Fork', 'Plate']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/29/front.png",
+      "./test_images/simulation/29/rear.png",
+      "./test_images/simulation/29/left.png",
+      "./test_images/simulation/29/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you clean the cup, and cool it in the fridge"
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will clean the cup, and cool it in the fridge</response>1.[Manipulate] find the white ceramic cup\n2.[Navigate] navigate to the white ceramic cup\n3.[Manipulate] pick the white ceramic cup\n4.[Manipulate] find the sink\n5.[Navigate] navigate to the sink\n6.[Manipulate] place the white ceramic cup into the sink\n7.[Manipulate] turn on the water\n8.[Manipulate] wash the white ceramic cup\n9.[Manipulate] turn off the water\n10.[Manipulate] pick the white ceramic cup\n11.[Manipulate] find the refrigerator\n12.[Navigate] navigate to the refrigerator\n13.[Manipulate] open the refrigerator\n14.[Manipulate] place the white ceramic cup into the refrigerator\n15.[Manipulate] close the refrigerator\n<plans></plans><actions>[['Find', 'White Ceramic Cup'], ['Navigate', 'White Ceramic Cup'], ['Pick', 'White Ceramic Cup'], ['Find', 'Sink'], ['Navigate', 'Sink'], ['Place', 'White Ceramic Cup', 'Sink'], ['Turn on', 'Water'], ['Wash', 'White Ceramic Cup'], ['Turn off', 'Water'], ['Pick', 'White Ceramic Cup'], ['Find', 'Refrigerator'], ['Navigate', 'Refrigerator'], ['Open', 'Refrigerator'], ['Place', 'White Ceramic Cup', 'Refrigerator'], ['Close', 'Refrigerator']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/29/front.png",
+      "./test_images/simulation/29/rear.png",
+      "./test_images/simulation/29/left.png",
+      "./test_images/simulation/29/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you move the cloth to the bathtub"
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will move the cloth to the bathtub</response>1.[Manipulate] find the yellow cloth\n2.[Navigate] navigate to the yellow cloth\n3.[Manipulate] pick the yellow cloth\n4.[Manipulate] find the bathtub\n5.[Navigate] navigate to the bathtub\n6.[Manipulate] place the yellow cloth into the bathtub\n<plans></plans><actions>[['Find', 'Yellow cloth'], ['Navigate', 'Yellow cloth'], ['Pick', 'Yellow cloth'], ['Find', 'Bathtub'], ['Navigate', 'Bathtub'], ['Place', 'Yellow cloth', 'Bathtub']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/404/front.png",
+      "./test_images/simulation/404/rear.png",
+      "./test_images/simulation/404/left.png",
+      "./test_images/simulation/404/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you clean the potato, and cool it in the fridge"
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will clean the potato, and cool it in the fridge</response>1.[Manipulate] find the potato\n2.[Navigate] navigate to the potato\n3.[Manipulate] pick the potato\n4.[Manipulate] find the sink\n5.[Navigate] navigate to the sink\n6.[Manipulate] place the potato into the sink\n7.[Manipulate] turn the tap\n8.[Manipulate] wash the potato\n9.[Manipulate] turn the tap\n10.[Manipulate] pick the potato\n11.[Manipulate] find the refrigerator\n12.[Navigate] navigate to the refrigerator\n13.[Manipulate] open the refrigerator\n14.[Manipulate] place the potato in the refrigerator\n15.[Manipulate] close the refrigerator\n<plans></plans><actions>[['Find', 'Potato'], ['Navigate', 'Potato'], ['Pick', 'Potato'], ['Find', 'Sink'], ['Navigate', 'Sink'], ['Place', 'Potato', 'Sink'], ['Turn', 'Tap'], ['Wash', 'Potato'], ['Turn', 'Tap'], ['Pick', 'Potato'], ['Find', 'Refrigerator'], ['Navigate', 'Refrigerator'], ['Open', 'Refrigerator'], ['Place', 'Potato', 'Refrigerator'], ['Close', 'Refrigerator']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/29/front.png",
+      "./test_images/simulation/29/rear.png",
+      "./test_images/simulation/29/left.png",
+      "./test_images/simulation/29/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you clean the dishsponge, and then place it in the in the pan"
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will clean the dishsponge, and then place it in the in the pan</response>1.[Manipulate] find the sponge\n2.[Navigate] navigate to the sponge\n3.[Manipulate] pick the sponge\n4.[Manipulate] find the sink\n5.[Navigate] navigate to the sink\n6.[Manipulate] place the sponge in the sink\n7.[Manipulate] turn on the water\n8.[Manipulate] wash the sponge\n9.[Manipulate] turn off the water\n10.[Manipulate] pick the sponge\n11.[Manipulate] find the cookware\n12.[Navigate] navigate to the cookware\n13.[Manipulate] place the sponge into the cookware\n<plans></plans><actions>[['Find', 'Sponge'], ['Navigate', 'Sponge'], ['Pick', 'Sponge'], ['Find', 'Sink'], ['Navigate', 'Sink'], ['Place', 'Sponge', 'Sink'], ['Turn on', 'Water'], ['Wash', 'Sponge'], ['Turn off', 'Water'], ['Pick', 'Sponge'], ['Find', 'Cookware'], ['Navigate', 'Cookware'], ['Place', 'Sponge', 'Cookware']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/29/front.png",
+      "./test_images/simulation/29/rear.png",
+      "./test_images/simulation/29/left.png",
+      "./test_images/simulation/29/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you Move the laptop from the dining table to the red sofa."
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will Move the laptop from the dining table to the red sofa.</response>1.[Manipulate] find the laptop\n2.[Navigate] navigate to the laptop\n3.[Manipulate] pick the laptop\n4.[Manipulate] find the red sofa\n5.[Navigate] navigate to the red sofa\n6.[Manipulate] place the laptop on the red sofa\n<plans></plans><actions>[['Find', 'Laptop'], ['Navigate', 'Laptop'], ['Pick', 'Laptop'], ['Find', 'Red Sofa'], ['Navigate', 'Red Sofa'], ['Place', 'Laptop', 'Red Sofa']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/205/front.png",
+      "./test_images/simulation/205/rear.png",
+      "./test_images/simulation/205/left.png",
+      "./test_images/simulation/205/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you Move the wateringcan to the diningtable and turn off the desklamp."
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will Move the wateringcan to the diningtable and turn off the desklamp.</response>1.[Manipulate] find the watering can\n2.[Navigate] navigate to the watering can\n3.[Manipulate] pick the watering can\n4.[Manipulate] find the dining table\n5.[Navigate] navigate to the Dining Table\n6.[Manipulate] place the watering can on the dining table\n7.[Manipulate] find the lamp\n8.[Navigate] navigate to the lamp\n9.[Manipulate] turn off the lamp\n<plans></plans><actions>[['Find', 'Watering Can'], ['Navigate', 'Watering Can'], ['Pick', 'Watering Can'], ['Find', 'Dining Table'], ['Navigate', 'Dining Table'], ['Place', 'Watering Can', 'Dining Table'], ['Find', 'Lamp'], ['Navigate', 'Lamp'], ['Turn off', 'Lamp']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/205/front.png",
+      "./test_images/simulation/205/rear.png",
+      "./test_images/simulation/205/left.png",
+      "./test_images/simulation/205/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you place the creditcard into drawer"
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will place the creditcard into drawer</response>1.[Navigate] navigate to the creditcard\n2.[Manipulate] pick the creditcard\n3.[Navigate] navigate to the drawer front\n4.[Manipulate] open the drawer\n5.[Manipulate] place the creditcard into the drawer interior\n6.[Manipulate] close the drawer\n<plans></plans><actions>[['Navigate', 'creditcard'], ['Pick', 'creditcard'], ['Navigate', 'Drawer Front'], ['Open', 'Drawer'], ['Place', 'creditcard', 'Drawer Interior'], ['Close', 'Drawer']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/205/front.png",
+      "./test_images/simulation/205/rear.png",
+      "./test_images/simulation/205/left.png",
+      "./test_images/simulation/205/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you Put the white vase on the diningtable."
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will Put the white vase on the diningtable.</response>1.[Manipulate] find the white vase\n2.[Navigate] navigate to the white vase\n3.[Manipulate] pick the white vase\n4.[Manipulate] find the dining table\n5.[Navigate] navigate to the Dining Table\n6.[Manipulate] place the white vase on the dining table\n<plans></plans><actions>[['Find', 'White Vase'], ['Navigate', 'White Vase'], ['Pick', 'White Vase'], ['Find', 'Dining Table'], ['Navigate', 'Dining Table'], ['Place', 'White Vase', 'Dining Table']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/208/front.png",
+      "./test_images/simulation/208/rear.png",
+      "./test_images/simulation/208/left.png",
+      "./test_images/simulation/208/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you move the statue on the shelf to diningtable, and Turn on the floor lamp"
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will move the statue on the shelf to diningtable, and Turn on the floor lamp</response>1.[Manipulate] find the statue\n2.[Navigate] navigate to the statue\n3.[Manipulate] pick the statue\n4.[Manipulate] find the dining table\n5.[Navigate] navigate to the Dining Table\n6.[Manipulate] place the statue on the dining table\n7.[Manipulate] find the floor lamp\n8.[Navigate] navigate to the floor lamp\n9.[Manipulate] turn off the floor lamp\n<plans></plans><actions>[['Find', 'Statue'], ['Navigate', 'Statue'], ['Pick', 'Statue'], ['Find', 'Dining Table'], ['Navigate', 'Dining Table'], ['Place', 'Statue', 'Dining Table'], ['Find', 'Floor Lamp'], ['Navigate', 'Floor Lamp'], ['Turn off', 'Floor Lamp']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/208/front.png",
+      "./test_images/simulation/208/rear.png",
+      "./test_images/simulation/208/left.png",
+      "./test_images/simulation/208/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you put the mug into the box"
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will put the mug into the box</response>1.[Manipulate] find the cup\n2.[Navigate] navigate to the cup\n3.[Manipulate] pick the cup\n4.[Manipulate] find the box\n5.[Navigate] navigate to the box\n6.[Manipulate] place the cup into the box\n<plans></plans><actions>[['Find', 'Cup'], ['Navigate', 'Cup'], ['Pick', 'Cup'], ['Find', 'Box'], ['Navigate', 'Box'], ['Place', 'Cup', 'Box']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/303/front.png",
+      "./test_images/simulation/303/rear.png",
+      "./test_images/simulation/303/left.png",
+      "./test_images/simulation/303/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you move the pencil into the drawer"
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will move the pencil into the drawer</response>1.[Navigate] navigate to the pencil\n2.[Manipulate] pick the pencil\n3.[Navigate] navigate to the drawer\n4.[Manipulate] open the drawer\n5.[Manipulate] place the pencil into the drawer\n6.[Manipulate] close the drawer\n<plans></plans><actions>[['Navigate', 'Pencil'], ['Pick', 'Pencil'], ['Navigate', 'Drawer'], ['Open', 'Drawer'], ['Place', 'Pencil', 'Drawer'], ['Close', 'Drawer']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/303/front.png",
+      "./test_images/simulation/303/rear.png",
+      "./test_images/simulation/303/left.png",
+      "./test_images/simulation/303/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you Move the teddy bear from the floor and place it on the bed"
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will Move the teddy bear from the floor and place it on the bed</response>1.[Navigate] navigate to the teddy bear\n2.[Manipulate] pick the teddy bear\n3.[Navigate] navigate to the Bed Right Wall Side\n4.[Manipulate] place the teddy bear at the bed center within 20cm of the bed edge\n<plans></plans><actions>[['Navigate', 'Teddy Bear'], ['Pick', 'Teddy Bear'], ['Navigate', 'Bed Right Wall Side'], ['Place', 'Teddy Bear', 'Bed Center within 20cm of Bed Edge']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/309/front.png",
+      "./test_images/simulation/309/rear.png",
+      "./test_images/simulation/309/left.png",
+      "./test_images/simulation/309/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you Move the alarm clock from the bedside table to the desk."
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will Move the alarm clock from the bedside table to the desk.</response>1.[Manipulate] find the clock\n2.[Navigate] navigate to the clock\n3.[Manipulate] pick the clock\n4.[Manipulate] find the desk\n5.[Navigate] navigate to the desk\n6.[Manipulate] place the clock on the desk\n<plans></plans><actions>[['Find', 'Clock'], ['Navigate', 'Clock'], ['Pick', 'Clock'], ['Find', 'Desk'], ['Navigate', 'Desk'], ['Place', 'Clock', 'Desk']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/309/front.png",
+      "./test_images/simulation/309/rear.png",
+      "./test_images/simulation/309/left.png",
+      "./test_images/simulation/309/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you Gather the notebook and the pen from the desk, and put them into a drawer."
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will Gather the notebook and the pen from the desk, and put them into a drawer.</response>1.[Manipulate] find the notebook\n2.[Navigate] navigate to the notebook\n3.[Manipulate] pick the notebook\n4.[Manipulate] find the drawer\n5.[Navigate] navigate to the drawer\n6.[Manipulate] open the drawer\n7.[Manipulate] place the notebook into the drawer\n8.[Manipulate] find the pen\n9.[Navigate] navigate to the pen\n10.[Manipulate] pick the pen\n11.[Manipulate] find the drawer\n12.[Navigate] navigate to the drawer\n13.[Manipulate] place the pen into the drawer\n14.[Manipulate] close the drawer\n<plans></plans><actions>[['Find', 'Notebook'], ['Navigate', 'Notebook'], ['Pick', 'Notebook'], ['Find', 'Drawer'], ['Navigate', 'Drawer'], ['Open', 'Drawer'], ['Place', 'Notebook', 'Drawer'], ['Find', 'Pen'], ['Navigate', 'Pen'], ['Pick', 'Pen'], ['Find', 'Drawer'], ['Navigate', 'Drawer'], ['Place', 'Pen', 'Drawer'], ['Close', 'Drawer']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/309/front.png",
+      "./test_images/simulation/309/rear.png",
+      "./test_images/simulation/309/left.png",
+      "./test_images/simulation/309/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you Put the soapbar in the Garbagecan."
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will Put the soapbar in the Garbagecan.</response>1.[Manipulate] find the soapbar\n2.[Navigate] navigate to the soapbar\n3.[Manipulate] pick the soapbar\n4.[Manipulate] find the trash\n5.[Navigate] navigate to the trash\n6.[Manipulate] place the soapbar into the trash\n<plans></plans><actions>[['Find', 'Soapbar'], ['Navigate', 'Soapbar'], ['Pick', 'Soapbar'], ['Find', 'Trash'], ['Navigate', 'Trash'], ['Place', 'Soapbar', 'Trash']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/404/front.png",
+      "./test_images/simulation/404/rear.png",
+      "./test_images/simulation/404/left.png",
+      "./test_images/simulation/404/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you clean the cloth, and then put it on the toilet"
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will clean the cloth, and then put it on the toilet</response>1.[Manipulate] find the cloth\n2.[Navigate] navigate to the cloth\n3.[Manipulate] pick the cloth\n4.[Manipulate] find the sink\n5.[Navigate] navigate to the sink\n6.[Manipulate] place the cloth into the sink\n7.[Manipulate] turn on the tap\n8.[Manipulate] wash the cloth\n9.[Manipulate] turn off the tap\n10.[Manipulate] pick the cloth\n11.[Manipulate] find the toilet\n12.[Navigate] navigate to the Toilet\n13.[Manipulate] place the cloth into the toilet\n<plans></plans><actions>[['Find', 'Cloth'], ['Navigate', 'Cloth'], ['Pick', 'Cloth'], ['Find', 'Sink'], ['Navigate', 'Sink'], ['Place', 'Cloth', 'Sink'], ['Turn on', 'Tap'], ['Wash', 'Cloth'], ['Turn off', 'Tap'], ['Pick', 'Cloth'], ['Find', 'Toilet'], ['Navigate', 'Toilet'], ['Place', 'Cloth', 'Toilet']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/404/front.png",
+      "./test_images/simulation/404/rear.png",
+      "./test_images/simulation/404/left.png",
+      "./test_images/simulation/404/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you clean the soapbar, and then put it on the shelf"
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will clean the soapbar, and then put it on the shelf</response>1.[Manipulate] find the pink soapbar\n2.[Navigate] navigate to the pink soapbar\n3.[Manipulate] pick the pink soapbar\n4.[Manipulate] find the washing basin\n5.[Navigate] navigate to the washing basin\n6.[Manipulate] place the pink soap into the washing basin\n7.[Manipulate] turn on the water\n8.[Manipulate] wash the pink soapbar\n9.[Manipulate] turn off the water\n10.[Manipulate] pick the pink soapbar\n11.[Manipulate] find the shelf\n12.[Navigate] navigate to the shelf\n13.[Manipulate] place the pink soap on the shelf\n<plans></plans><actions>[['Find', 'Pink Soapbar'], ['Navigate', 'Pink Soapbar'], ['Pick', 'Pink Soapbar'], ['Find', 'Washing Basin'], ['Navigate', 'Washing Basin'], ['Place', 'Pink Soapbar', 'Washing Basin'], ['Turn on', 'Water'], ['Wash', 'Pink Soapbar'], ['Turn off', 'Water'], ['Pick', 'Pink Soapbar'], ['Find', 'Shelf'], ['Navigate', 'Shelf'], ['Place', 'Pink Soapbar', 'Shelf']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/404/front.png",
+      "./test_images/simulation/404/rear.png",
+      "./test_images/simulation/404/left.png",
+      "./test_images/simulation/404/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you move the spraybottle from the shelf to the garbagecan, and turn off the lightswitch"
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will move the spraybottle from the shelf to the garbagecan, and turn off the lightswitch</response>1.[Manipulate] find the spray bottle\n2.[Navigate] navigate to the spray bottle\n3.[Manipulate] pick the spray bottle\n4.[Manipulate] find the trash can\n5.[Navigate] navigate to the trash can\n6.[Manipulate] place the spray bottle into the trash can\n7.[Manipulate] find the light switch\n8.[Navigate] navigate to the light switch\n9.[Manipulate] turn off the light switch\n<plans></plans><actions>[['Find', 'Spray Bottle'], ['Navigate', 'Spray Bottle'], ['Pick', 'Spray Bottle'], ['Find', 'Trash Can'], ['Navigate', 'Trash Can'], ['Place', 'Spray Bottle', 'Trash Can'], ['Find', 'Light Switch'], ['Navigate', 'Light Switch'], ['Turn off', 'Light Switch']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/404/front.png",
+      "./test_images/simulation/404/rear.png",
+      "./test_images/simulation/404/left.png",
+      "./test_images/simulation/404/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you put candle in the bathtub"
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will put candle in the bathtub</response>1.[Manipulate] find the candle\n2.[Navigate] navigate to the candle\n3.[Manipulate] pick the candle\n4.[Manipulate] find the bath tub\n5.[Navigate] navigate to the bath tub\n6.[Manipulate] place the candle into the bath tub\n<plans></plans><actions>[['Find', 'Candle'], ['Navigate', 'Candle'], ['Pick', 'Candle'], ['Find', 'Bath Tub'], ['Navigate', 'Bath Tub'], ['Place', 'Candle', 'Bath Tub']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/404/front.png",
+      "./test_images/simulation/404/rear.png",
+      "./test_images/simulation/404/left.png",
+      "./test_images/simulation/404/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you clean the cloth, and then put it on the toilet"
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will clean the cloth, and then put it on the toilet</response>1.[Manipulate] find the blue cloth\n2.[Navigate] navigate to the blue cloth\n3.[Manipulate] pick the blue cloth\n4.[Manipulate] find the sink\n5.[Navigate] navigate to the sink\n6.[Manipulate] place the blue cloth into the sink\n7.[Manipulate] turn on the water\n8.[Manipulate] wash the blue cloth\n9.[Manipulate] turn off the water\n10.[Manipulate] pick the blue cloth\n11.[Manipulate] find the toilet\n12.[Navigate] navigate to the Toilet\n13.[Manipulate] place the blue cloth into the toilet\n<plans></plans><actions>[['Find', 'Blue cloth'], ['Navigate', 'Blue cloth'], ['Pick', 'Blue cloth'], ['Find', 'Sink'], ['Navigate', 'Sink'], ['Place', 'Blue cloth', 'Sink'], ['Turn on', 'Water'], ['Wash', 'Blue cloth'], ['Turn off', 'Water'], ['Pick', 'Blue cloth'], ['Find', 'Toilet'], ['Navigate', 'Toilet'], ['Place', 'Blue cloth', 'Toilet']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/424/front.png",
+      "./test_images/simulation/424/rear.png",
+      "./test_images/simulation/424/left.png",
+      "./test_images/simulation/424/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you move the soapbar from the shelf to the garbagecan, and turn off the lightswitch"
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will move the soapbar from the shelf to the garbagecan, and turn off the lightswitch</response>1.[Manipulate] find the green soapbar\n2.[Navigate] navigate to the green soapbar\n3.[Manipulate] pick the green soapbar\n4.[Manipulate] find the trash can\n5.[Navigate] navigate to the trash can\n6.[Manipulate] place the green soapbar into the trash can\n7.[Manipulate] find the light switch\n8.[Navigate] navigate to the light switch\n9.[Manipulate] turn off the light\n<plans></plans><actions>[['Find', 'Green soapbar'], ['Navigate', 'Green soapbar'], ['Pick', 'Green soapbar'], ['Find', 'Trash Can'], ['Navigate', 'Trash Can'], ['Place', 'Green soapbar', 'Trash Can'], ['Find', 'Light Switch'], ['Navigate', 'Light Switch'], ['Turn off', 'Light']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/424/front.png",
+      "./test_images/simulation/424/rear.png",
+      "./test_images/simulation/424/left.png",
+      "./test_images/simulation/424/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you put soapbar on the toilet and open the toilet"
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will put soapbar on the toilet and open the toilet</response>1.[Manipulate] find the soapbar\n2.[Navigate] navigate to the soapbar\n3.[Manipulate] pick the soapbar\n4.[Manipulate] find the toilet\n5.[Navigate] navigate to the Toilet\n6.[Manipulate] place the soapbar in the toilet\n7.[Manipulate] open the toilet\n<plans></plans><actions>[['Find', 'Soapbar'], ['Navigate', 'Soapbar'], ['Pick', 'Soapbar'], ['Find', 'Toilet'], ['Navigate', 'Toilet'], ['Place', 'Soapbar', 'Toilet'], ['Open', 'Toilet']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/424/front.png",
+      "./test_images/simulation/424/rear.png",
+      "./test_images/simulation/424/left.png",
+      "./test_images/simulation/424/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you clean the cloth, and then put it on the toilet"
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will clean the cloth, and then put it on the toilet</response>1.[Manipulate] find the cloth\n2.[Navigate] navigate to the cloth\n3.[Manipulate] pick the cloth\n4.[Manipulate] find the sink\n5.[Navigate] navigate to the sink\n6.[Manipulate] place the cloth into the sink\n7.[Manipulate] turn on the water\n8.[Manipulate] wash the cloth\n9.[Manipulate] turn off the water\n10.[Manipulate] pick the cloth\n11.[Manipulate] find the toilet\n12.[Navigate] navigate to the Toilet\n13.[Manipulate] place the cloth into the toilet\n<plans></plans><actions>[['Find', 'cloth'], ['Navigate', 'cloth'], ['Pick', 'cloth'], ['Find', 'Sink'], ['Navigate', 'Sink'], ['Place', 'cloth', 'Sink'], ['Turn on', 'Water'], ['Wash', 'cloth'], ['Turn off', 'Water'], ['Pick', 'cloth'], ['Find', 'Toilet'], ['Navigate', 'Toilet'], ['Place', 'cloth', 'Toilet']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/425/front.png",
+      "./test_images/simulation/425/rear.png",
+      "./test_images/simulation/425/left.png",
+      "./test_images/simulation/425/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you put soapbar in the Garbagecan"
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will put soapbar in the Garbagecan</response>1.[Manipulate] find the pink soapbar\n2.[Navigate] navigate to the pink soapbar\n3.[Manipulate] pick the pink soapbar\n4.[Manipulate] find the green trash can\n5.[Navigate] navigate to the green trash can\n6.[Manipulate] place the pink soap into the trash can\n<plans></plans><actions>[['Find', 'Pink Soapbar'], ['Navigate', 'Pink Soapbar'], ['Pick', 'Pink Soapbar'], ['Find', 'Green Trash Can'], ['Navigate', 'Green Trash Can'], ['Place', 'Pink Soapbar', 'Trash Can']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/425/front.png",
+      "./test_images/simulation/425/rear.png",
+      "./test_images/simulation/425/left.png",
+      "./test_images/simulation/425/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you Put the soapbar in the Garbagecan, and turn off the lightswitch"
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will Put the soapbar in the Garbagecan, and turn off the lightswitch</response>1.[Manipulate] find the soapbar\n2.[Navigate] navigate to the soapbar\n3.[Manipulate] pick the soapbar\n4.[Manipulate] find the trash can\n5.[Navigate] navigate to the trash can\n6.[Manipulate] place the soapbar into the trash can\n7.[Manipulate] find the light switch\n8.[Navigate] navigate to the light switch\n9.[Manipulate] turn off the light switch\n<plans></plans><actions>[['Find', 'soapbar'], ['Navigate', 'soapbar'], ['Pick', 'soapbar'], ['Find', 'Trash Can'], ['Navigate', 'Trash Can'], ['Place', 'soapbar', 'Trash Can'], ['Find', 'Light Switch'], ['Navigate', 'Light Switch'], ['Turn off', 'Light Switch']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/425/front.png",
+      "./test_images/simulation/425/rear.png",
+      "./test_images/simulation/425/left.png",
+      "./test_images/simulation/425/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you clean the soapbar, and then put it on the toilet"
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will clean the soapbar, and then put it on the toilet</response>1.[Manipulate] find the pink soapbar\n2.[Navigate] navigate to the pink soapbar\n3.[Manipulate] pick the pink soapbar\n4.[Manipulate] find the sink\n5.[Navigate] navigate to the sink\n6.[Manipulate] place the pink soapbar into the sink\n7.[Manipulate] turn on the water\n8.[Manipulate] wash the pink soapbar\n9.[Manipulate] turn off the water\n10.[Manipulate] pick the pink soapbar\n11.[Manipulate] find the toilet\n12.[Navigate] navigate to the Toilet\n13.[Manipulate] place the pink soapbar in the toilet\n<plans></plans><actions>[['Find', 'Pink soapbar'], ['Navigate', 'Pink soapbar'], ['Pick', 'Pink soapbar'], ['Find', 'Sink'], ['Navigate', 'Sink'], ['Place', 'Pink soapbar', 'Sink'], ['Turn on', 'Water'], ['Wash', 'Pink soapbar'], ['Turn off', 'Water'], ['Pick', 'Pink soapbar'], ['Find', 'Toilet'], ['Navigate', 'Toilet'], ['Place', 'Pink soapbar', 'Toilet']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/425/front.png",
+      "./test_images/simulation/425/rear.png",
+      "./test_images/simulation/425/left.png",
+      "./test_images/simulation/425/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you put the candle on the toilet, and then turn on the candle"
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will put the candle on the toilet, and then turn on the candle</response>1.[Manipulate] find the candle\n2.[Navigate] navigate to the candle\n3.[Manipulate] pick the candle\n4.[Manipulate] find the toilet\n5.[Navigate] navigate to the Toilet\n6.[Manipulate] place the candle in the toilet\n7.[Manipulate] turn on the candle\n<plans></plans><actions>[['Find', 'Candle'], ['Navigate', 'Candle'], ['Pick', 'Candle'], ['Find', 'Toilet'], ['Navigate', 'Toilet'], ['Place', 'Candle', 'Toilet'], ['Turn on', 'Candle']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/425/front.png",
+      "./test_images/simulation/425/rear.png",
+      "./test_images/simulation/425/left.png",
+      "./test_images/simulation/425/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you put the candle on the toilet, and then turn on the candle"
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will put the candle on the toilet, and then turn on the candle</response>1.[Manipulate] find the candle\n2.[Navigate] navigate to the candle\n3.[Manipulate] pick the candle\n4.[Manipulate] find the toilet\n5.[Navigate] navigate to the Toilet\n6.[Manipulate] place the candle in the toilet\n7.[Manipulate] turn on the candle\n<plans></plans><actions>[['Find', 'Candle'], ['Navigate', 'Candle'], ['Pick', 'Candle'], ['Find', 'Toilet'], ['Navigate', 'Toilet'], ['Place', 'Candle', 'Toilet'], ['Turn on', 'Candle']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/404/front.png",
+      "./test_images/simulation/404/rear.png",
+      "./test_images/simulation/404/left.png",
+      "./test_images/simulation/404/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you Get the kettle from the stove, wash it, and then put the apple in the microwave."
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will Get the kettle from the stove, wash it, and then put the apple in the microwave.</response>1.[Manipulate] find the stove\n2.[Navigate] navigate to the stove\n3.[Manipulate] pick the kettle\n4.[Manipulate] find the sink\n5.[Navigate] navigate to the sink\n6.[Manipulate] place the kettle in the sink\n7.[Manipulate] turn on the water\n8.[Manipulate] wash the kettle\n9.[Manipulate] turn off the water\n10.[Manipulate] pick the apple\n11.[Manipulate] find the microwave\n12.[Navigate] navigate to the microwave\n13.[Manipulate] open the microwave\n14.[Manipulate] place the apple into the microwave\n15.[Manipulate] close the microwave\n<plans></plans><actions>[['Find', 'Stove'], ['Navigate', 'Stove'], ['Pick', 'Kettle'], ['Find', 'Sink'], ['Navigate', 'Sink'], ['Place', 'Kettle', 'Sink'], ['Turn on', 'Water'], ['Wash', 'Kettle'], ['Turn off', 'Water'], ['Pick', 'Apple'], ['Find', 'Microwave'], ['Navigate', 'Microwave'], ['Open', 'Microwave'], ['Place', 'Apple', 'Microwave'], ['Close', 'Microwave']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/29/front.png",
+      "./test_images/simulation/29/rear.png",
+      "./test_images/simulation/29/left.png",
+      "./test_images/simulation/29/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you wash the apple, and put it on the pot."
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will wash the apple, and put it on the pot.</response>1.[Manipulate] find the apple\n2.[Navigate] navigate to the apple\n3.[Manipulate] pick the apple\n4.[Manipulate] find the sink\n5.[Navigate] navigate to the sink\n6.[Manipulate] place the apple into the sink\n7.[Manipulate] turn on the water\n8.[Manipulate] wash the apple\n9.[Manipulate] turn off the water\n10.[Manipulate] pick the apple\n11.[Manipulate] find the pot\n12.[Navigate] navigate to the pot\n13.[Manipulate] place the apple into the pot\n<plans></plans><actions>[['Find', 'Apple'], ['Navigate', 'Apple'], ['Pick', 'Apple'], ['Find', 'Sink'], ['Navigate', 'Sink'], ['Place', 'Apple', 'Sink'], ['Turn on', 'Water'], ['Wash', 'Apple'], ['Turn off', 'Water'], ['Pick', 'Apple'], ['Find', 'Pot'], ['Navigate', 'Pot'], ['Place', 'Apple', 'Pot']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/29/front.png",
+      "./test_images/simulation/29/rear.png",
+      "./test_images/simulation/29/left.png",
+      "./test_images/simulation/29/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you Get the mug from the countertop, fill it with water from the sink, and then put the mug in the coffeemachine."
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will Get the mug from the countertop, fill it with water from the sink, and then put the mug in the coffeemachine.</response>1.[Manipulate] find the cup\n2.[Navigate] navigate to the cup\n3.[Manipulate] pick the cup\n4.[Manipulate] find the sink\n5.[Navigate] navigate to the sink\n6.[Manipulate] place the cup in the sink\n7.[Manipulate] turn on the water\n8.[Manipulate] pour the water into the cup\n9.[Manipulate] turn off the water\n10.[Manipulate] pick the cup\n11.[Manipulate] find the coffee machine\n12.[Navigate] navigate to the coffee machine\n13.[Manipulate] place the cup into the coffee machine\n<plans></plans><actions>[['Find', 'Cup'], ['Navigate', 'Cup'], ['Pick', 'Cup'], ['Find', 'Sink'], ['Navigate', 'Sink'], ['Place', 'Cup', 'Sink'], ['Turn on', 'Water'], ['Pour', 'Water', 'Cup'], ['Turn off', 'Water'], ['Pick', 'Cup'], ['Find', 'Coffee Machine'], ['Navigate', 'Coffee Machine'], ['Place', 'Cup', 'Coffee Machine']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/29/front.png",
+      "./test_images/simulation/29/rear.png",
+      "./test_images/simulation/29/left.png",
+      "./test_images/simulation/29/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you Take the apple from the island, wash it in the sink, and then place it in the fridge."
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will Take the apple from the island, wash it in the sink, and then place it in the fridge.</response>1.[Manipulate] find the apple\n2.[Navigate] navigate to the apple\n3.[Manipulate] pick the apple\n4.[Manipulate] find the sink\n5.[Navigate] navigate to the sink\n6.[Manipulate] place the apple into the sink\n7.[Manipulate] turn on the water\n8.[Manipulate] wash the apple\n9.[Manipulate] turn off the water\n10.[Manipulate] pick the apple\n11.[Manipulate] find the refrigerator\n12.[Navigate] navigate to the refrigerator\n13.[Manipulate] open the refrigerator\n14.[Manipulate] place the apple in the refrigerator\n15.[Manipulate] close the refrigerator\n<plans></plans><actions>[['Find', 'Apple'], ['Navigate', 'Apple'], ['Pick', 'Apple'], ['Find', 'Sink'], ['Navigate', 'Sink'], ['Place', 'Apple', 'Sink'], ['Turn on', 'Water'], ['Wash', 'Apple'], ['Turn off', 'Water'], ['Pick', 'Apple'], ['Find', 'Refrigerator'], ['Navigate', 'Refrigerator'], ['Open', 'Refrigerator'], ['Place', 'Apple', 'Refrigerator'], ['Close', 'Refrigerator']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/10/front.png",
+      "./test_images/simulation/10/rear.png",
+      "./test_images/simulation/10/left.png",
+      "./test_images/simulation/10/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you clean the potato in the sink, and place it in the fridge"
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will clean the potato in the sink, and place it in the fridge</response>1.[Manipulate] find the potato\n2.[Navigate] navigate to the potato\n3.[Manipulate] pick the potato\n4.[Manipulate] find the sink\n5.[Navigate] navigate to the sink\n6.[Manipulate] place the potato into the sink\n7.[Manipulate] turn on the water\n8.[Manipulate] wash the potato\n9.[Manipulate] turn off the water\n10.[Manipulate] pick the potato\n11.[Manipulate] find the refrigerator\n12.[Navigate] navigate to the refrigerator\n13.[Manipulate] open the refrigerator\n14.[Manipulate] place the potato in the refrigerator\n15.[Manipulate] close the refrigerator\n<plans></plans><actions>[['Find', 'Potato'], ['Navigate', 'Potato'], ['Pick', 'Potato'], ['Find', 'Sink'], ['Navigate', 'Sink'], ['Place', 'Potato', 'Sink'], ['Turn on', 'Water'], ['Wash', 'Potato'], ['Turn off', 'Water'], ['Pick', 'Potato'], ['Find', 'Refrigerator'], ['Navigate', 'Refrigerator'], ['Open', 'Refrigerator'], ['Place', 'Potato', 'Refrigerator'], ['Close', 'Refrigerator']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/9/front.png",
+      "./test_images/simulation/9/rear.png",
+      "./test_images/simulation/9/left.png",
+      "./test_images/simulation/9/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you wash the fork in the sink, and place it on the plate, then put them in the cabinet"
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will wash the fork in the sink, and place it on the plate, then put them in the cabinet</response>1.[Manipulate] find the fork\n2.[Navigate] navigate to the fork\n3.[Manipulate] pick the fork\n4.[Manipulate] find the sink\n5.[Navigate] navigate to the sink\n6.[Manipulate] place the fork into the sink\n7.[Manipulate] turn on the water\n8.[Manipulate] wash the fork\n9.[Manipulate] turn off the water\n10.[Manipulate] pick the fork\n11.[Manipulate] find the plate\n12.[Navigate] navigate to the plate\n13.[Manipulate] place the fork on the plate\n14.[Manipulate] pick the plate\n15.[Manipulate] find the cabinet\n16.[Navigate] navigate to the cabinet\n17.[Manipulate] open the cabinet\n18.[Manipulate] place the plate into the cabinet\n19.[Manipulate] close the cabinet\n<plans></plans><actions>[['Find', 'Fork'], ['Navigate', 'Fork'], ['Pick', 'Fork'], ['Find', 'Sink'], ['Navigate', 'Sink'], ['Place', 'Fork', 'Sink'], ['Turn on', 'Water'], ['Wash', 'Fork'], ['Turn off', 'Water'], ['Pick', 'Fork'], ['Find', 'Plate'], ['Navigate', 'Plate'], ['Place', 'Fork', 'Plate'], ['Pick', 'Plate'], ['Find', 'Cabinet'], ['Navigate', 'Cabinet'], ['Open', 'Cabinet'], ['Place', 'Plate', 'Cabinet'], ['Close', 'Cabinet']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/29/front.png",
+      "./test_images/simulation/29/rear.png",
+      "./test_images/simulation/29/left.png",
+      "./test_images/simulation/29/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you wash the potato in the sink, and put it on the plate ,and finally place them in the fridge"
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will wash the potato in the sink, and put it on the plate ,and finally place them in the fridge</response>1.[Manipulate] find the potato\n2.[Navigate] navigate to the potato\n3.[Manipulate] pick the potato\n4.[Manipulate] find the sink\n5.[Navigate] navigate to the sink\n6.[Manipulate] place the potato into the sink\n7.[Manipulate] turn on the water\n8.[Manipulate] wash the potato\n9.[Manipulate] turn off the water\n10.[Manipulate] pick the potato\n11.[Manipulate] find the white plate\n12.[Navigate] navigate to the white plate\n13.[Manipulate] place the potato on the white plate\n14.[Manipulate] pick the white plate\n15.[Manipulate] find the refrigerator\n16.[Navigate] navigate to the refrigerator\n17.[Manipulate] open the refrigerator\n18.[Manipulate] place the white plate into the refrigerator\n19.[Manipulate] close the refrigerator\n<plans></plans><actions>[['Find', 'Potato'], ['Navigate', 'Potato'], ['Pick', 'Potato'], ['Find', 'Sink'], ['Navigate', 'Sink'], ['Place', 'Potato', 'Sink'], ['Turn on', 'Water'], ['Wash', 'Potato'], ['Turn off', 'Water'], ['Pick', 'Potato'], ['Find', 'White Plate'], ['Navigate', 'White Plate'], ['Place', 'Potato', 'White Plate'], ['Pick', 'White Plate'], ['Find', 'Refrigerator'], ['Navigate', 'Refrigerator'], ['Open', 'Refrigerator'], ['Place', 'White Plate', 'Refrigerator'], ['Close', 'Refrigerator']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/29/front.png",
+      "./test_images/simulation/29/rear.png",
+      "./test_images/simulation/29/left.png",
+      "./test_images/simulation/29/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you put the creditcard into box and close the box"
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will put the creditcard into box and close the box</response>1.[Manipulate] find the creditcard\n2.[Navigate] navigate to the creditcard\n3.[Manipulate] pick the creditcard\n4.[Manipulate] find the cardboard box\n5.[Navigate] navigate to the cardboard box\n6.[Manipulate] place the creditcard into the cardboard box\n7.[Manipulate] close the cardboard box\n<plans></plans><actions>[['Find', 'creditcard'], ['Navigate', 'creditcard'], ['Pick', 'creditcard'], ['Find', 'Cardboard Box'], ['Navigate', 'Cardboard Box'], ['Place', 'creditcard', 'Cardboard Box'], ['Close', 'Cardboard Box']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/205/front.png",
+      "./test_images/simulation/205/rear.png",
+      "./test_images/simulation/205/left.png",
+      "./test_images/simulation/205/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you Put the pen into the drawer"
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will Put the pen into the drawer</response>1.[Manipulate] find the pen\n2.[Navigate] navigate to the pen\n3.[Manipulate] pick the pen\n4.[Manipulate] find the drawer\n5.[Navigate] navigate to the drawer\n6.[Manipulate] open the drawer\n7.[Manipulate] place the pen into the drawer\n8.[Manipulate] close the drawer\n<plans></plans><actions>[['Find', 'Pen'], ['Navigate', 'Pen'], ['Pick', 'Pen'], ['Find', 'Drawer'], ['Navigate', 'Drawer'], ['Open', 'Drawer'], ['Place', 'Pen', 'Drawer'], ['Close', 'Drawer']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/308/front.png",
+      "./test_images/simulation/308/rear.png",
+      "./test_images/simulation/308/left.png",
+      "./test_images/simulation/308/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you clean the soapbar, and then put it on the sink"
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will clean the soapbar, and then put it on the sink</response>1.[Manipulate] find the soapbar\n2.[Navigate] navigate to the soapbar\n3.[Manipulate] pick the soapbar\n4.[Manipulate] find the sink\n5.[Navigate] navigate to the sink\n6.[Manipulate] place the soapbar in the sink\n7.[Manipulate] turn on the water\n8.[Manipulate] wash the soapbar\n9.[Manipulate] turn off the water\n10.[Manipulate] pick the soapbar\n11.[Manipulate] place the soapbar on the sink top\n<plans></plans><actions>[['Find', 'Soapbar'], ['Navigate', 'Soapbar'], ['Pick', 'Soapbar'], ['Find', 'Sink'], ['Navigate', 'Sink'], ['Place', 'Soapbar', 'Sink'], ['Turn on', 'Water'], ['Wash', 'Soapbar'], ['Turn off', 'Water'], ['Pick', 'Soapbar'], ['Place', 'Soapbar', 'Sink Top']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/424/front.png",
+      "./test_images/simulation/424/rear.png",
+      "./test_images/simulation/424/left.png",
+      "./test_images/simulation/424/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you Put the tomato inside the bowl, then move the bowl on the table"
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will Put the tomato inside the bowl, then move the bowl on the table</response>1.[Manipulate] find the tomato\n2.[Navigate] navigate to the Tomato\n3.[Manipulate] pick the tomato\n4.[Manipulate] find the bowl\n5.[Navigate] navigate to the bowl\n6.[Manipulate] place the tomato into the bowl\n7.[Manipulate] pick the bowl\n8.[Manipulate] find the round table\n9.[Navigate] navigate to the round table\n10.[Manipulate] place the bowl on the round table\n<plans></plans><actions>[['Find', 'Tomato'], ['Navigate', 'Tomato'], ['Pick', 'Tomato'], ['Find', 'Bowl'], ['Navigate', 'Bowl'], ['Place', 'Tomato', 'Bowl'], ['Pick', 'Bowl'], ['Find', 'Round Table'], ['Navigate', 'Round Table'], ['Place', 'Bowl', 'Round Table']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/9/front.png",
+      "./test_images/simulation/9/rear.png",
+      "./test_images/simulation/9/left.png",
+      "./test_images/simulation/9/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you cut the bread, and then place a slice of bread in the table"
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will cut the bread, and then place a slice of bread in the table</response>1.[Manipulate] find the bread\n2.[Navigate] navigate to the bread\n3.[Manipulate] pick the bread\n4.[Manipulate] find the knife\n5.[Navigate] navigate to the knife\n6.[Manipulate] place the bread on the counter\n7.[Manipulate] pick the knife\n8.[Manipulate] cut the bread with the knife\n9.[Manipulate] place the knife into the sink\n10.[Manipulate] pick the bread slice\n11.[Manipulate] find the table\n12.[Navigate] navigate to the table\n13.[Manipulate] place the bread slice on the table\n<plans></plans><actions>[['Find', 'Bread'], ['Navigate', 'Bread'], ['Pick', 'Bread'], ['Find', 'Knife'], ['Navigate', 'Knife'], ['Place', 'Bread', 'Counter'], ['Pick', 'Knife'], ['Cut', 'Knife', 'Bread'], ['Place', 'Knife', 'Sink'], ['Pick', 'Bread Slice'], ['Find', 'Table'], ['Navigate', 'Table'], ['Place', 'Bread Slice', 'Table']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/9/front.png",
+      "./test_images/simulation/9/rear.png",
+      "./test_images/simulation/9/left.png",
+      "./test_images/simulation/9/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you Put the blue creditcard in the drawer."
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will Put the blue creditcard in the drawer.</response>1.[Manipulate] find the blue creditcard\n2.[Navigate] navigate to the blue creditcard\n3.[Manipulate] pick the blue creditcard\n4.[Manipulate] find the drawer cabinet\n5.[Navigate] navigate to the drawer cabinet\n6.[Manipulate] open the drawer cabinet\n7.[Manipulate] place the blue creditcard into the drawer cabinet\n8.[Manipulate] close the drawer cabinet\n<plans></plans><actions>[['Find', 'Blue creditcard'], ['Navigate', 'Blue creditcard'], ['Pick', 'Blue creditcard'], ['Find', 'Drawer Cabinet'], ['Navigate', 'Drawer Cabinet'], ['Open', 'Drawer Cabinet'], ['Place', 'Blue creditcard', 'Drawer Cabinet'], ['Close', 'Drawer Cabinet']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/308/front.png",
+      "./test_images/simulation/308/rear.png",
+      "./test_images/simulation/308/left.png",
+      "./test_images/simulation/308/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you Put the pen into the white mug, and then turn off the desklamp"
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will Put the pen into the white mug, and then turn off the desklamp</response>1.[Manipulate] find the pen\n2.[Navigate] navigate to the pen\n3.[Manipulate] pick the pen\n4.[Manipulate] find the white cup\n5.[Navigate] navigate to the white cup\n6.[Manipulate] place the pen into the white cup\n7.[Manipulate] find the lamp\n8.[Navigate] navigate to the lamp\n9.[Manipulate] turn off the lamp\n<plans></plans><actions>[['Find', 'Pen'], ['Navigate', 'Pen'], ['Pick', 'Pen'], ['Find', 'White Cup'], ['Navigate', 'White Cup'], ['Place', 'Pen', 'White Cup'], ['Find', 'Lamp'], ['Navigate', 'Lamp'], ['Turn off', 'Lamp']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/309/front.png",
+      "./test_images/simulation/309/rear.png",
+      "./test_images/simulation/309/left.png",
+      "./test_images/simulation/309/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you Put the soapbar in the Garbagecan."
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will Put the soapbar in the Garbagecan.</response>1.[Manipulate] find the soapbar\n2.[Navigate] navigate to the soapbar\n3.[Manipulate] pick the soapbar\n4.[Manipulate] find the trash\n5.[Navigate] navigate to the trash\n6.[Manipulate] place the soapbar into the trash\n<plans></plans><actions>[['Find', 'Soapbar'], ['Navigate', 'Soapbar'], ['Pick', 'Soapbar'], ['Find', 'Trash'], ['Navigate', 'Trash'], ['Place', 'Soapbar', 'Trash']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/424/front.png",
+      "./test_images/simulation/424/rear.png",
+      "./test_images/simulation/424/left.png",
+      "./test_images/simulation/424/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you Cut an apple, and put a slice of apple into pot"
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will Cut an apple, and put a slice of apple into pot</response>1.[Manipulate] find the apple\n2.[Navigate] navigate to the apple\n3.[Manipulate] pick the apple\n4.[Manipulate] place the apple on the table\n5.[Manipulate] pick the knife\n6.[Manipulate] cut the apple with the knife\n7.[Manipulate] place the knife on the kitchen table\n8.[Manipulate] pick the apple slice\n9.[Manipulate] find the pot\n10.[Navigate] navigate to the pot\n11.[Manipulate] place the apple slice into the pot\n<plans></plans><actions>[['Find', 'Apple'], ['Navigate', 'Apple'], ['Pick', 'Apple'], ['Place', 'Apple', 'Table'], ['Pick', 'Knife'], ['Cut', 'Knife', 'Apple'], ['Place', 'Knife', 'Kitchen Table'], ['Pick', 'Apple Slice'], ['Find', 'Pot'], ['Navigate', 'Pot'], ['Place', 'Apple Slice', 'Pot']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/10/front.png",
+      "./test_images/simulation/10/rear.png",
+      "./test_images/simulation/10/left.png",
+      "./test_images/simulation/10/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you place the tomato in plate, cool them both in the fridge"
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will place the tomato in plate, cool them both in the fridge</response>1.[Manipulate] find the tomato\n2.[Navigate] navigate to the Tomato\n3.[Manipulate] pick the tomato\n4.[Manipulate] find the plate\n5.[Navigate] navigate to the plate\n6.[Manipulate] place the tomato on the plate\n7.[Manipulate] pick the plate\n8.[Manipulate] find the refrigerator\n9.[Navigate] navigate to the refrigerator\n10.[Manipulate] open the refrigerator\n11.[Manipulate] place the plate into the refrigerator\n12.[Manipulate] close the refrigerator\n<plans></plans><actions>[['Find', 'Tomato'], ['Navigate', 'Tomato'], ['Pick', 'Tomato'], ['Find', 'Plate'], ['Navigate', 'Plate'], ['Place', 'Tomato', 'Plate'], ['Pick', 'Plate'], ['Find', 'Refrigerator'], ['Navigate', 'Refrigerator'], ['Open', 'Refrigerator'], ['Place', 'Plate', 'Refrigerator'], ['Close', 'Refrigerator']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/10/front.png",
+      "./test_images/simulation/10/rear.png",
+      "./test_images/simulation/10/left.png",
+      "./test_images/simulation/10/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you Get the dishsponge from the sink, put it on the pot, and clean them"
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will Get the dishsponge from the sink, put it on the pot, and clean them</response>1.[Manipulate] find the sponge\n2.[Navigate] navigate to the sponge\n3.[Manipulate] pick the sponge\n4.[Manipulate] find the pot\n5.[Navigate] navigate to the pot\n6.[Manipulate] place the sponge into the pot\n7.[Manipulate] pick the pot\n8.[Manipulate] find the sink\n9.[Navigate] navigate to the sink\n10.[Manipulate] place the pot into the sink\n11.[Manipulate] turn on the water\n12.[Manipulate] wash the pot\n13.[Manipulate] turn off the water\n<plans></plans><actions>[['Find', 'Sponge'], ['Navigate', 'Sponge'], ['Pick', 'Sponge'], ['Find', 'Pot'], ['Navigate', 'Pot'], ['Place', 'Sponge', 'Pot'], ['Pick', 'Pot'], ['Find', 'Sink'], ['Navigate', 'Sink'], ['Place', 'Pot', 'Sink'], ['Turn on', 'Water'], ['Wash', 'Pot'], ['Turn off', 'Water']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/10/front.png",
+      "./test_images/simulation/10/rear.png",
+      "./test_images/simulation/10/left.png",
+      "./test_images/simulation/10/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you fill the mug with water from the sink, and then cool the mug."
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will fill the mug with water from the sink, and then cool the mug.</response>1.[Manipulate] find the mug\n2.[Navigate] navigate to the mug\n3.[Manipulate] pick the mug\n4.[Manipulate] find the sink\n5.[Navigate] navigate to the sink\n6.[Manipulate] place the mug in the sink\n7.[Manipulate] turn on the tap\n8.[Manipulate] pour the water into the mug\n9.[Manipulate] turn off the tap\n10.[Manipulate] pick the mug\n11.[Manipulate] find the refrigerator\n12.[Navigate] navigate to the refrigerator\n13.[Manipulate] open the refrigerator\n14.[Manipulate] place the mug into the refrigerator\n15.[Manipulate] close the refrigerator\n<plans></plans><actions>[['Find', 'Mug'], ['Navigate', 'Mug'], ['Pick', 'Mug'], ['Find', 'Sink'], ['Navigate', 'Sink'], ['Place', 'Mug', 'Sink'], ['Turn on', 'Tap'], ['Pour', 'Water', 'Mug'], ['Turn off', 'Tap'], ['Pick', 'Mug'], ['Find', 'Refrigerator'], ['Navigate', 'Refrigerator'], ['Open', 'Refrigerator'], ['Place', 'Mug', 'Refrigerator'], ['Close', 'Refrigerator']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/29/front.png",
+      "./test_images/simulation/29/rear.png",
+      "./test_images/simulation/29/left.png",
+      "./test_images/simulation/29/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you First wash the tomato, then use the knife to cut it, and finally put the pieces in the blue bowl."
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will First wash the tomato, then use the knife to cut it, and finally put the pieces in the blue bowl.</response>1.[Manipulate] find the tomato\n2.[Navigate] navigate to the Tomato\n3.[Manipulate] pick the tomato\n4.[Manipulate] place the tomato into the sink\n5.[Manipulate] turn on the water\n6.[Manipulate] wash the tomato\n7.[Manipulate] turn off the water\n8.[Manipulate] find the knife\n9.[Navigate] navigate to the knife\n10.[Manipulate] pick the knife\n11.[Manipulate] cut the tomato\n12.[Manipulate] place the knife into the sink\n13.[Manipulate] pick the tomato piece\n14.[Manipulate] find the blue bowl\n15.[Navigate] navigate to the blue bowl\n16.[Manipulate] place the tomato piece into the blue bowl\n<plans></plans><actions>[['Find', 'Tomato'], ['Navigate', 'Tomato'], ['Pick', 'Tomato'], ['Place', 'Tomato', 'Sink'], ['Turn on', 'Water'], ['Wash', 'Tomato'], ['Turn off', 'Water'], ['Find', 'Knife'], ['Navigate', 'Knife'], ['Pick', 'Knife'], ['Cut', 'Tomato'], ['Place', 'Knife', 'Sink'], ['Pick', 'Tomato Piece'], ['Find', 'Blue Bowl'], ['Navigate', 'Blue Bowl'], ['Place', 'Tomato Piece', 'Blue Bowl']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/9/front.png",
+      "./test_images/simulation/9/rear.png",
+      "./test_images/simulation/9/left.png",
+      "./test_images/simulation/9/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you cut the apple, and place the slice of apple in the fridge"
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will cut the apple, and place the slice of apple in the fridge</response>1.[Manipulate] find the apple\n2.[Navigate] navigate to the apple\n3.[Manipulate] pick the apple\n4.[Manipulate] place the apple on the counter\n5.[Manipulate] find the knife\n6.[Navigate] navigate to the knife\n7.[Manipulate] pick the knife\n8.[Manipulate] find the apple\n9.[Navigate] navigate to the apple\n10.[Manipulate] cut the apple with the knife\n11.[Manipulate] place the knife on the counter\n12.[Manipulate] find the apple slice\n13.[Navigate] navigate to the apple slice\n14.[Manipulate] pick the apple slice\n15.[Manipulate] find the refrigerator\n16.[Navigate] navigate to the refrigerator\n17.[Manipulate] open the refrigerator\n18.[Manipulate] place the apple slice into the refrigerator\n19.[Manipulate] close the refrigerator\n<plans></plans><actions>[['Find', 'Apple'], ['Navigate', 'Apple'], ['Pick', 'Apple'], ['Place', 'Apple', 'Counter'], ['Find', 'Knife'], ['Navigate', 'Knife'], ['Pick', 'Knife'], ['Find', 'Apple'], ['Navigate', 'Apple'], ['Cut', 'Apple', 'Knife'], ['Place', 'Knife', 'Counter'], ['Find', 'Apple Slice'], ['Navigate', 'Apple Slice'], ['Pick', 'Apple Slice'], ['Find', 'Refrigerator'], ['Navigate', 'Refrigerator'], ['Open', 'Refrigerator'], ['Place', 'Apple Slice', 'Refrigerator'], ['Close', 'Refrigerator']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/10/front.png",
+      "./test_images/simulation/10/rear.png",
+      "./test_images/simulation/10/left.png",
+      "./test_images/simulation/10/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you ​Turn on the TV and move the creditcard to the drawer"
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will ​Turn on the TV and move the creditcard to the drawer</response>1.[Manipulate] find the television\n2.[Navigate] navigate to the television\n3.[Manipulate] turn on the television\n4.[Manipulate] find the creditcard\n5.[Navigate] navigate to the creditcard\n6.[Manipulate] grasp the creditcard\n7.[Manipulate] find the drawer\n8.[Navigate] navigate to the drawer\n9.[Manipulate] open the drawer\n10.[Manipulate] place the creditcard into the drawer\n11.[Manipulate] close the drawer\n<plans></plans><actions>[['Find', 'Television'], ['Navigate', 'Television'], ['Turn on', 'Television'], ['Find', 'creditcard'], ['Navigate', 'creditcard'], ['Grasp', 'creditcard'], ['Find', 'Drawer'], ['Navigate', 'Drawer'], ['Open', 'Drawer'], ['Place', 'creditcard', 'Drawer'], ['Close', 'Drawer']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/205/front.png",
+      "./test_images/simulation/205/rear.png",
+      "./test_images/simulation/205/left.png",
+      "./test_images/simulation/205/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you Move the alarm clock on the desk and then turn off the desklamp."
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will Move the alarm clock on the desk and then turn off the desklamp.</response>1.[Manipulate] find the clock\n2.[Navigate] navigate to the clock\n3.[Manipulate] pick the clock\n4.[Manipulate] find the desk\n5.[Navigate] navigate to the desk\n6.[Manipulate] place the clock on the desk\n7.[Manipulate] find the lamp\n8.[Navigate] navigate to the lamp\n9.[Manipulate] turn off the lamp\n<plans></plans><actions>[['Find', 'Clock'], ['Navigate', 'Clock'], ['Pick', 'Clock'], ['Find', 'Desk'], ['Navigate', 'Desk'], ['Place', 'Clock', 'Desk'], ['Find', 'Lamp'], ['Navigate', 'Lamp'], ['Turn off', 'Lamp']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/303/front.png",
+      "./test_images/simulation/303/rear.png",
+      "./test_images/simulation/303/left.png",
+      "./test_images/simulation/303/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you Put the pen into the white mug, and then turn off the desklamp"
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will Put the pen into the white mug, and then turn off the desklamp</response>1.[Manipulate] find the pen\n2.[Navigate] navigate to the pen\n3.[Manipulate] pick the pen\n4.[Manipulate] find the white cup\n5.[Navigate] navigate to the white cup\n6.[Manipulate] place the pen into the white cup\n7.[Manipulate] find the lamp\n8.[Navigate] navigate to the lamp\n9.[Manipulate] turn off the lamp\n<plans></plans><actions>[['Find', 'Pen'], ['Navigate', 'Pen'], ['Pick', 'Pen'], ['Find', 'White Cup'], ['Navigate', 'White Cup'], ['Place', 'Pen', 'White Cup'], ['Find', 'Lamp'], ['Navigate', 'Lamp'], ['Turn off', 'Lamp']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/308/front.png",
+      "./test_images/simulation/308/rear.png",
+      "./test_images/simulation/308/left.png",
+      "./test_images/simulation/308/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you cut the potato, and clean one slice of it"
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will cut the potato, and clean one slice of it</response>1.[Manipulate] find the potato\n2.[Navigate] navigate to the potato\n3.[Manipulate] pick the potato\n4.[Manipulate] find the worktop\n5.[Navigate] navigate to the worktop\n6.[Manipulate] place the potato on the worktop\n7.[Manipulate] find the knife\n8.[Navigate] navigate to the knife\n9.[Manipulate] pick the knife\n10.[Navigate] navigate to the worktop\n11.[Manipulate] cut the potato with the knife\n12.[Manipulate] place the knife on the worktop\n13.[Manipulate] pick the potato slice\n14.[Manipulate] find the sink\n15.[Navigate] navigate to the sink\n16.[Manipulate] place the potato slice into the sink\n17.[Manipulate] turn on the water\n18.[Manipulate] wash the potato slice\n<plans></plans><actions>[['Find', 'Potato'], ['Navigate', 'Potato'], ['Pick', 'Potato'], ['Find', 'Worktop'], ['Navigate', 'Worktop'], ['Place', 'Potato', 'Worktop'], ['Find', 'Knife'], ['Navigate', 'Knife'], ['Pick', 'Knife'], ['Navigate', 'Worktop'], ['Cut', 'Knife', 'Potato'], ['Place', 'Knife', 'Worktop'], ['Pick', 'Potato Slice'], ['Find', 'Sink'], ['Navigate', 'Sink'], ['Place', 'Potato Slice', 'Sink'], ['Turn on', 'Water'], ['Wash', 'Potato Slice']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/29/front.png",
+      "./test_images/simulation/29/rear.png",
+      "./test_images/simulation/29/left.png",
+      "./test_images/simulation/29/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you Put the book into the cardboard box and close it."
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will Put the book into the cardboard box and close it.</response>1.[Manipulate] find the box\n2.[Navigate] navigate to the box\n3.[Manipulate] open the box\n4.[Manipulate] find the book\n5.[Navigate] navigate to the book\n6.[Manipulate] grasp the book\n7.[Manipulate] find the box\n8.[Navigate] navigate to the box\n9.[Manipulate] place the book into the box\n10.[Manipulate] close the box\n<plans></plans><actions>[['Find', 'Box'], ['Navigate', 'Box'], ['Open', 'Box'], ['Find', 'Book'], ['Navigate', 'Book'], ['Grasp', 'Book'], ['Find', 'Box'], ['Navigate', 'Box'], ['Place', 'Book', 'Box'], ['Close', 'Box']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/303/front.png",
+      "./test_images/simulation/303/rear.png",
+      "./test_images/simulation/303/left.png",
+      "./test_images/simulation/303/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you clean the bowl, and place the tomato in the bowl"
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will clean the bowl, and place the tomato in the bowl</response>1.[Manipulate] find the blue bowl\n2.[Navigate] navigate to the blue bowl\n3.[Manipulate] pick the blue bowl\n4.[Manipulate] find the sink\n5.[Navigate] navigate to the sink\n6.[Manipulate] place the blue bowl into the sink\n7.[Manipulate] turn on the water\n8.[Manipulate] wash the blue bowl\n9.[Manipulate] turn off the water\n10.[Manipulate] find the tomato\n11.[Navigate] navigate to the Tomato\n12.[Manipulate] pick the tomato\n13.[Manipulate] find the sink\n14.[Navigate] navigate to the sink\n15.[Manipulate] place the tomato into the blue bowl\n16.[Manipulate] pick the blue bowl\n<plans></plans><actions>[['Find', 'Blue Bowl'], ['Navigate', 'Blue Bowl'], ['Pick', 'Blue Bowl'], ['Find', 'Sink'], ['Navigate', 'Sink'], ['Place', 'Blue Bowl', 'Sink'], ['Turn on', 'Water'], ['Wash', 'Blue Bowl'], ['Turn off', 'Water'], ['Find', 'Tomato'], ['Navigate', 'Tomato'], ['Pick', 'Tomato'], ['Find', 'Sink'], ['Navigate', 'Sink'], ['Place', 'Tomato', 'Blue Bowl'], ['Pick', 'Blue Bowl']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/9/front.png",
+      "./test_images/simulation/9/rear.png",
+      "./test_images/simulation/9/left.png",
+      "./test_images/simulation/9/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you cut the apple and tomato, and put the slices of them into the plate"
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will cut the apple and tomato, and put the slices of them into the plate</response>1.[Manipulate] find the tomato\n2.[Navigate] navigate to the Tomato\n3.[Manipulate] pick the tomato\n4.[Manipulate] find the cutting board\n5.[Navigate] navigate to the cutting board\n6.[Manipulate] place the tomato on the cutting board\n7.[Manipulate] find the apple\n8.[Navigate] navigate to the apple\n9.[Manipulate] pick the apple\n10.[Manipulate] find the cutting board\n11.[Navigate] navigate to the cutting board\n12.[Manipulate] place the apple on the cutting board\n13.[Manipulate] find the knife\n14.[Navigate] navigate to the knife\n15.[Manipulate] pick the knife\n16.[Manipulate] find the cutting board\n17.[Navigate] navigate to the cutting board\n18.[Manipulate] cut the tomato with the knife\n19.[Manipulate] cut the apple with the knife\n20.[Manipulate] find the knife original position\n21.[Navigate] navigate to the knife original position\n22.[Manipulate] place the knife at the original position\n23.[Manipulate] find the cutting board\n24.[Navigate] navigate to the cutting board\n25.[Manipulate] pick the tomato slice\n26.[Manipulate] find the plate\n27.[Navigate] navigate to the plate\n28.[Manipulate] place the tomato slice on the plate\n29.[Manipulate] find the cutting board\n30.[Navigate] navigate to the cutting board\n31.[Manipulate] pick the apple slice\n32.[Manipulate] find the plate\n33.[Navigate] navigate to the plate\n34.[Manipulate] place the apple slice on the plate\n<plans></plans><actions>[['Find', 'Tomato'], ['Navigate', 'Tomato'], ['Pick', 'Tomato'], ['Find', 'Cutting Board'], ['Navigate', 'Cutting Board'], ['Place', 'Tomato', 'Cutting Board'], ['Find', 'Apple'], ['Navigate', 'Apple'], ['Pick', 'Apple'], ['Find', 'Cutting Board'], ['Navigate', 'Cutting Board'], ['Place', 'Apple', 'Cutting Board'], ['Find', 'Knife'], ['Navigate', 'Knife'], ['Pick', 'Knife'], ['Find', 'Cutting Board'], ['Navigate', 'Cutting Board'], ['Cut', 'Knife', 'Tomato'], ['Cut', 'Knife', 'Apple'], ['Find', 'Knife Original Position'], ['Navigate', 'Knife Original Position'], ['Place', 'Knife', 'Original Position'], ['Find', 'Cutting Board'], ['Navigate', 'Cutting Board'], ['Pick', 'Tomato Slice'], ['Find', 'Plate'], ['Navigate', 'Plate'], ['Place', 'Tomato Slice', 'Plate'], ['Find', 'Cutting Board'], ['Navigate', 'Cutting Board'], ['Pick', 'Apple Slice'], ['Find', 'Plate'], ['Navigate', 'Plate'], ['Place', 'Apple Slice', 'Plate']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/10/front.png",
+      "./test_images/simulation/10/rear.png",
+      "./test_images/simulation/10/left.png",
+      "./test_images/simulation/10/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you Move the white spray bottle and soapbottle to the cabinet"
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will Move the white spray bottle and soapbottle to the cabinet</response>1.[Manipulate] find the white spray bottle\n2.[Navigate] navigate to the white spray bottle\n3.[Manipulate] pick the white spray bottle\n4.[Manipulate] find the cabinet\n5.[Navigate] navigate to the cabinet\n6.[Manipulate] open the cabinet\n7.[Manipulate] place the white spray bottle into the cabinet\n8.[Manipulate] find the soapbottle\n9.[Navigate] navigate to the soapbottle\n10.[Manipulate] pick the soapbottle\n11.[Manipulate] find the cabinet\n12.[Navigate] navigate to the cabinet\n13.[Manipulate] place the soapbottle into the cabinet\n14.[Manipulate] close the cabinet\n<plans></plans><actions>[['Find', 'White Spray Bottle'], ['Navigate', 'White Spray Bottle'], ['Pick', 'White Spray Bottle'], ['Find', 'Cabinet'], ['Navigate', 'Cabinet'], ['Open', 'Cabinet'], ['Place', 'White Spray Bottle', 'Cabinet'], ['Find', 'Soapbottle'], ['Navigate', 'Soapbottle'], ['Pick', 'Soapbottle'], ['Find', 'Cabinet'], ['Navigate', 'Cabinet'], ['Place', 'Soapbottle', 'Cabinet'], ['Close', 'Cabinet']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/424/front.png",
+      "./test_images/simulation/424/rear.png",
+      "./test_images/simulation/424/left.png",
+      "./test_images/simulation/424/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you get the apple from sink, cut it, and place the slice in the pan"
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will get the apple from sink, cut it, and place the slice in the pan</response>1.[Manipulate] find the sink\n2.[Navigate] navigate to the sink\n3.[Manipulate] pick the apple\n4.[Manipulate] turn on the water\n5.[Manipulate] place the apple into the sink\n6.[Manipulate] wash the apple\n7.[Manipulate] find the knife\n8.[Navigate] navigate to the knife\n9.[Manipulate] pick the knife\n10.[Manipulate] find the sink\n11.[Navigate] navigate to the sink\n12.[Manipulate] cut the apple with the knife\n13.[Manipulate] place the knife into the sink\n14.[Manipulate] pick the apple slice\n15.[Manipulate] find the pot\n16.[Navigate] navigate to the pot\n17.[Manipulate] place the apple slice into the pot\n<plans></plans><actions>[['Find', 'Sink'], ['Navigate', 'Sink'], ['Pick', 'Apple'], ['Turn on', 'Water'], ['Place', 'Apple', 'Sink'], ['Wash', 'Apple'], ['Find', 'Knife'], ['Navigate', 'Knife'], ['Pick', 'Knife'], ['Find', 'Sink'], ['Navigate', 'Sink'], ['Cut', 'Apple', 'Knife'], ['Place', 'Knife', 'Sink'], ['Pick', 'Apple Slice'], ['Find', 'Pot'], ['Navigate', 'Pot'], ['Place', 'Apple Slice', 'Pot']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/29/front.png",
+      "./test_images/simulation/29/rear.png",
+      "./test_images/simulation/29/left.png",
+      "./test_images/simulation/29/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you put the book on the bed and turn on the laptop"
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will put the book on the bed and turn on the laptop</response>1.[Manipulate] find the book\n2.[Navigate] navigate to the book\n3.[Manipulate] pick the book\n4.[Manipulate] find the bed\n5.[Navigate] navigate to the bed\n6.[Manipulate] place the book on the bed\n7.[Manipulate] find the laptop\n8.[Navigate] navigate to the laptop\n9.[Manipulate] turn on the laptop\n<plans></plans><actions>[['Find', 'Book'], ['Navigate', 'Book'], ['Pick', 'Book'], ['Find', 'Bed'], ['Navigate', 'Bed'], ['Place', 'Book', 'Bed'], ['Find', 'Laptop'], ['Navigate', 'Laptop'], ['Turn on', 'Laptop']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/303/front.png",
+      "./test_images/simulation/303/rear.png",
+      "./test_images/simulation/303/left.png",
+      "./test_images/simulation/303/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you Move the laptop to the bed， and turn on the laptop"
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will Move the laptop to the bed， and turn on the laptop</response>1.[Manipulate] find the laptop\n2.[Navigate] navigate to the laptop\n3.[Manipulate] pick the laptop\n4.[Manipulate] find the bed\n5.[Navigate] navigate to the bed\n6.[Manipulate] place the laptop on the bed\n7.[Manipulate] turn on the laptop\n<plans></plans><actions>[['Find', 'Laptop'], ['Navigate', 'Laptop'], ['Pick', 'Laptop'], ['Find', 'Bed'], ['Navigate', 'Bed'], ['Place', 'Laptop', 'Bed'], ['Turn on', 'Laptop']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/308/front.png",
+      "./test_images/simulation/308/rear.png",
+      "./test_images/simulation/308/left.png",
+      "./test_images/simulation/308/right.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "场景图片:\n前方视角：<image>\n后方视角：<image>\n左方视角：<image>\n右方视角：<image>\n 任务描述：Can you Move the laptop to the desk， and turn on the laptop"
+      },
+      {
+        "role": "assistant",
+        "content": "<response>Of course! I will Move the laptop to the desk， and turn on the laptop</response>1.[Manipulate] find the laptop\n2.[Navigate] navigate to the laptop\n3.[Manipulate] pick the laptop\n4.[Manipulate] find the desk\n5.[Navigate] navigate to the desk\n6.[Manipulate] place the laptop on the desk\n7.[Manipulate] turn on the laptop\n<plans></plans><actions>[['Find', 'Laptop'], ['Navigate', 'Laptop'], ['Pick', 'Laptop'], ['Find', 'Desk'], ['Navigate', 'Desk'], ['Place', 'Laptop', 'Desk'], ['Turn on', 'Laptop']]</actions>"
+      }
+    ],
+    "images": [
+      "./test_images/simulation/309/front.png",
+      "./test_images/simulation/309/rear.png",
+      "./test_images/simulation/309/left.png",
+      "./test_images/simulation/309/right.png"
+    ]
+  }
+]
