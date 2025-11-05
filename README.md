@@ -1,6 +1,6 @@
 # EmbodiedBrain: Expanding Performance Boundaries of Task Planning for Embodied Intelligence
 
-[[📜 Paper]]([https://arxiv.org/abs/2506.00123](https://arxiv.org/pdf/2510.20578)) [[⭐️Project Page]](https://zterobot.github.io/EmbodiedBrain.github.io/) [[🤗 Model 7B]]([https://huggingface.co/OpenGVLab/VeBrain](https://huggingface.co/ZTE-AIM/EmbodiedBrain-7B)) [[🤗 Model 32B]]([[https://huggingface.co/OpenGVLab/VeBrain](https://huggingface.co/ZTE-AIM/EmbodiedBrain-7B](https://huggingface.co/ZTE-AIM/EmbodiedBrain-32B)))
+[[📜 Paper]](https://arxiv.org/pdf/2510.20578) [[⭐️Project Page]](https://zterobot.github.io/EmbodiedBrain.github.io/) [[🤗 Model 7B]](https://huggingface.co/ZTE-AIM/EmbodiedBrain-7B) [[🤗 Model 32B]](https://huggingface.co/ZTE-AIM/EmbodiedBrain-32B)
 
 <p align="center">
 <img src="images/Sec2_framework.png" alt="overview" style="width: 100%; height: auto;" />
