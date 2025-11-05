@@ -112,6 +112,11 @@ The development of this project relies on the following excellent open-source fr
 
 This project is released under the [MIT License](LICENSE).
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=ZTERobot/EmbodiedBrain1.0&type=date&legend=top-left)](https://www.star-history.com/?spm=a2ty_o01.29997173.0.0.6db4c921pHzlTe#ZTERobot/EmbodiedBrain1.0&type=date&legend=top-left)
+
+
 ## 🖊️ Citation
 
 If you find this work helpful in your research, please consider giving this repo a star ⭐ and citing our paper:
